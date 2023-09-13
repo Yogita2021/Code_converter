@@ -1,0 +1,66 @@
+#editor-container {
+  height: 400px;
+  width: 50%;
+  float: left;
+}
+body {
+  background-color: rgb(179, 216, 241);
+}
+#output-container {
+  height: 400px;
+  width: 50%;
+  float: left;
+  background-color: rgb(74, 71, 71);
+  color: #ffff;
+}
+#btn-container {
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 50px;
+  /* background-color: skyblue; */
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#btn-container > div {
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+#language-selector {
+  background-color: rgb(255, 255, 117);
+  color: black;
+  border: none;
+}
+
+#title {
+  text-align: center;
+}
+#quality-check-btn {
+  background-color: green;
+  color: white;
+  border: none;
+}
+#debug-btn {
+  background-color: orange;
+  color: white;
+}
+#clearbtn {
+  background-color: red;
+  color: white;
+  border: none;
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+#convert-btn {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}

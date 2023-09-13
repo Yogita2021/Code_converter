@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Converter & Debugger</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Include Monaco Editor and Bootstrap CSS links here -->
+    <link
+      rel="stylesheet"
+      data-name="vs/editor/editor.main"
+      href="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.27.0/min/vs/editor/editor.main.min.css"
+    />
+  </head>
+  <body>
+    <div id="title">
+      <h1>Code-Converter</h1>
+    </div>
+    <div id="btn-container">
+      <div>
+        <select id="language-selector">
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="java">Java</option>
+          <option value="cpp">C++</option>
+          <option value="c">C</option>
+        </select>
+      </div>
+      <div><button id="convert-btn">Convert</button></div>
+      <div>
+        <button id="debug-btn">Debug</button>
+        <button id="quality-check-btn">Quality Check</button>
+        <button id="clearbtn">Clear</button>
+      </div>
+    </div>
+    <div id="editor-container"></div>
+    <div id="output-container">
+      <h1>Output:</h1>
+      <div id="output_content"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.27.0/min/vs/loader.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
